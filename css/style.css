@@ -1,0 +1,47 @@
+
+ul li a{
+    font-size: larger;
+    color: #ffffff !important;
+}
+ul li a:hover{
+    color: #e0dddd !important;
+}
+.navbar-brand img{
+    width:25vh;
+}
+#banner{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.bg-img{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/banner.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+.custom-banner  
+{   
+    position: relative;
+    top: 40%;
+    width: 75%;
+    margin:auto;
+    color: #e0dddd;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    margin: 0 auto;
+}
+
+.visible{
+    visibility: visible;
+}
