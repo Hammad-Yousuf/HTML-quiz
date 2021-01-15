@@ -1,7 +1,6 @@
 // Result Variables;
 
 var studentname = prompt('Enter Your Name');
-var id = prompt('Enter your Student ID.');
 var obtMarks = 0;
 var questionAttempt = 0;
 var correctAns = 0;
@@ -419,7 +418,6 @@ function result(){
     question9();
     question10();
     document.getElementById('name').innerHTML = studentname;
-    document.getElementById('studentid').innerHTML = id;
     obtMarks_p.innerHTML = obtMarks + "/20";
     attemptQuestions.innerHTML= questionAttempt ;
     correctAns_p.innerHTML = correctAns + "/10";
