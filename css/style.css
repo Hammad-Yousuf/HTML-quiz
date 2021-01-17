@@ -45,3 +45,13 @@ button{
 .visible{
     visibility: visible;
 }
+#loading{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: #1c273a url('../img/a2dc9668f2cf170fe3efeb263128b0e7.gif') no-repeat center;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
