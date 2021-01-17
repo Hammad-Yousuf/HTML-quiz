@@ -12,9 +12,23 @@
     <link rel="stylesheet" href="css/modular-style.css">
     <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
     <title>RKTECH</title>
+    <script src="./js/loader.js"></script>
+    <style>
+        #loading{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: #1c273a url('../img/a2dc9668f2cf170fe3efeb263128b0e7.gif') no-repeat center;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
 </head>
 
-<body >
+<body  onload="myfunction()">
+    <div id="loading"></div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
         <a href="#" class="navbar-brand"><img src="img/LOGO.png" alt="LOGO"></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
